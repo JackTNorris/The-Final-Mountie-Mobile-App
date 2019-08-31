@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "269099119210",
+    "firebase_url": "https://mountie-mobile.firebaseio.com",
+    "project_id": "mountie-mobile",
+    "storage_bucket": "mountie-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269099119210:android:5d152ecc168d7d7f",
+        "android_client_info": {
+          "package_name": "com.mountiemobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269099119210-98o3vdodskk91ue2ip8v21ccb4vir70n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ktYqoIih52AiU7q4jh83atFp_u816x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269099119210-98o3vdodskk91ue2ip8v21ccb4vir70n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
