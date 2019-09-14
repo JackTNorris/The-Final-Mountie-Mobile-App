@@ -23,6 +23,8 @@ const athleticIcons = {
   wrestling: require('../assets/icons/Athletics/wrestling-icon.png'),
   volleyball: require('../assets/icons/Athletics/volleyball-icon.png'),
   tennis: require('../assets/icons/Athletics/tennis-icon.png'),
+    swimanddive: require('../assets/icons/Athletics/swimming-icon.png'),
+  softball: require('../assets/icons/Athletics/softball-icon.png')
 };
 const artIcons = {
   band: require('../assets/icons/Arts/band-icon.png'),
@@ -137,11 +139,15 @@ class EventList extends React.Component {
       Animated.sequence([
         Animated.timing(this.animatedValue, {
           toValue: 150,
-          duration: 1500,
+          duration: 500,
+        }),
+		Animated.timing(this.animatedValue, {
+          toValue: 150,
+          duration: 500,
         }),
         Animated.timing(this.animatedValue, {
           toValue: 0,
-          duration: 1500,
+          duration: 500,
         }),
       ])
     ).start();
@@ -190,6 +196,12 @@ class EventList extends React.Component {
           case 'soccer':
             catObject = athleticIcons.soccer;
             break;
+		  case 'softball':
+			catObject = athleticIcons.softball;
+			break;
+		  case 'swim/dive':
+			catObject = athleticIcons.swimanddive;
+			break;
         }
         break;
       case 'academics':
@@ -262,6 +274,7 @@ class EventList extends React.Component {
 		  outputRange: ['rgb(0, 0, 0)', 'rgb(0, 89, 255)']
 		})
     let returnData = [];
+	let searchedItemsFound = false;
     let specEvents = []; //items array stored all of the events for that category
     if (this.state.events) {
       this.state.events.forEach(item => {
@@ -321,6 +334,7 @@ class EventList extends React.Component {
             .toLowerCase()
             .indexOf(this.props.filterSearch.toLowerCase()) > -1)
       ) {
+		searchedItemsFound = true;
         if (specEvents[x].isSpecial) {
           returnData.push(
             <TouchableHighlight //second part of navigate method is the parameters passed to the next screen
@@ -417,11 +431,20 @@ class EventList extends React.Component {
         }
       }
     }
+	if(specEvents.length === 0 || (this.props.filterSearch != null && !searchedItemsFound))
+	{
+		
+		returnData.push(<View style = {{flexDirection: "column", justifyContent: 'center', alignItems: 'center'}}>
+						<Text>No events found</Text>
+						</View>
+						);
+		
+	}
     return returnData;
   }
 
   render() {
-    return (
+	return (
       <View style={{ alignContent: 'center' }}>{this.displayEvents()}</View>
     );
   }

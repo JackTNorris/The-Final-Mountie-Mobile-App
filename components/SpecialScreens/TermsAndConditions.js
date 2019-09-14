@@ -27,7 +27,7 @@ class TermsAndConditions extends React.Component{
             <Text style={ styles.liText }>
               All Mounties, past, present, and future, can use this app to improve the way we show spirit.
               {"\n\n"}
-              Whether your spirit means the incredible arts, athletics, or academics offerred at Rogers High School.
+              Whether or not your spirit involves the incredible arts, athletics, or academics offered at Rogers High School, our app has something to offer to you.
               {"\n\n"}
               Thank you all.
               {"\n\n"}

@@ -1,0 +1,553 @@
+-- Merging decision tree log ---
+permission#com.mountiemobile.permission.C2D_MESSAGE
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:7:5-9:47
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:8:9-63
+uses-permission#com.mountiemobile.permission.C2D_MESSAGE
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:32:5-79
+	android:name
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:10:22-76
+manifest
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+MERGED from [:react-native-gesture-handler] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-push-notification] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\bf10fdba668718199c9de12a90075ee1\react-native-0.59.8\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\334ed0fb95b6180f4d745a8e39f40908\firebase-core-15.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7814de106526a97ec49e064c3bfcbd36\appcompat-v7-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7ed2948d61484c562222f3486438b2be\fresco-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aa745562f1ab5fafe9274864c7a03a0\imagepipeline-okhttp3-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\d43cde91dd501e39f1d849ead9dac297\drawee-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c97ca2a6b6607ebf0397fe9c1bdc324\imagepipeline-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\79ce3b8fb017d3d11959bdef6473e4d9\imagepipeline-base-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0cf472d1f0e825d05df82675c7c0c8a5\soloader-0.6.0\AndroidManifest.xml:2:1-13:12
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ada8c2feb9af40e4170ec6dbcb7b86b8\firebase-iid-interop-16.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ede359b0bf032c8682299509587a4e7b\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\45e64df2fb46b481214b52800f86c0ef\firebase-measurement-connector-16.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\472c1fc7ae234eeab1e8661e1d3e35ec\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0a0a623c181d45a00d2395619ca3bd14\play-services-ads-identifier-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\c19f606039257f979dd86d674ee30a4b\support-v4-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\568b61425b13e18bb6330b5e467cd6be\support-fragment-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\3ed7207df34a7b104031902c482c843a\support-core-utils-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0ed9bf7124f673e3ae16a6833ea97a7f\animated-vector-drawable-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e4bb53ec939e005a67c1fc497b3571d3\support-vector-drawable-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0347503d04e89aecca985c570fbd89c7\support-core-ui-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\eadde4ce35e850397ee33a5858f311e7\support-media-compat-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\38b7526406df4c469433738b367ae0f1\support-compat-27.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e62a50fa9084e3d2081d3371ff749f55\fbcore-1.10.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\4adcdd2e417f10a173c0aafdb86b3f54\play-services-measurement-base-15.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+	package
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:2:3-30
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-87:12
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:6:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:14:22-78
+application
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:16:5-85:19
+MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\bf10fdba668718199c9de12a90075ee1\react-native-0.59.8\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\bf10fdba668718199c9de12a90075ee1\react-native-0.59.8\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\334ed0fb95b6180f4d745a8e39f40908\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\334ed0fb95b6180f4d745a8e39f40908\firebase-core-15.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0cf472d1f0e825d05df82675c7c0c8a5\soloader-0.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0cf472d1f0e825d05df82675c7c0c8a5\soloader-0.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ada8c2feb9af40e4170ec6dbcb7b86b8\firebase-iid-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ada8c2feb9af40e4170ec6dbcb7b86b8\firebase-iid-interop-16.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ede359b0bf032c8682299509587a4e7b\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ede359b0bf032c8682299509587a4e7b\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\45e64df2fb46b481214b52800f86c0ef\firebase-measurement-connector-16.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\45e64df2fb46b481214b52800f86c0ef\firebase-measurement-connector-16.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\472c1fc7ae234eeab1e8661e1d3e35ec\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\472c1fc7ae234eeab1e8661e1d3e35ec\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0a0a623c181d45a00d2395619ca3bd14\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0a0a623c181d45a00d2395619ca3bd14\play-services-ads-identifier-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\4adcdd2e417f10a173c0aafdb86b3f54\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\4adcdd2e417f10a173c0aafdb86b3f54\play-services-measurement-base-15.0.2\AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:20:9-36
+	android:theme
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:16:23-54
+meta-data#com.dieam.reactnativepushnotification.notification_channel_name
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:22:5-23:57
+	android:value
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:22:17-95
+meta-data#com.dieam.reactnativepushnotification.notification_channel_description
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:24:5-25:64
+	android:value
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:24:17-102
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:27:5-28:50
+	android:resource
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:27:17-88
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:42:5-106
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:42:15-103
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:43:5-47:16
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:43:15-111
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:44:9-46:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:45:13-75
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:45:21-72
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:48:5-114
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:48:14-112
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:51:5-57:15
+	android:exported
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:53:9-33
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:52:9-106
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:54:9-56:25
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:13-77
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:21-74
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:59:9-65:19
+	android:exported
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:60:13-107
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:62:13-64:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:17-78
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:25-75
+activity#com.mountiemobile.MainActivity
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:66:7-81:18
+	android:screenOrientation
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:71:11-47
+	android:label
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:68:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:70:9-51
+	android:configChanges
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:69:9-79
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:67:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:72:9-75:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:73:13-65
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:73:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:74:13-73
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:74:23-70
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:76:11-80:27
+action#android.intent.action.VIEW
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:78:15-67
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:78:23-64
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:83:7-84
+	android:name
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:83:17-81
+uses-sdk
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\bf10fdba668718199c9de12a90075ee1\react-native-0.59.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\bf10fdba668718199c9de12a90075ee1\react-native-0.59.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\334ed0fb95b6180f4d745a8e39f40908\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\334ed0fb95b6180f4d745a8e39f40908\firebase-core-15.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7814de106526a97ec49e064c3bfcbd36\appcompat-v7-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7814de106526a97ec49e064c3bfcbd36\appcompat-v7-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7ed2948d61484c562222f3486438b2be\fresco-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\7ed2948d61484c562222f3486438b2be\fresco-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aa745562f1ab5fafe9274864c7a03a0\imagepipeline-okhttp3-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aa745562f1ab5fafe9274864c7a03a0\imagepipeline-okhttp3-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\d43cde91dd501e39f1d849ead9dac297\drawee-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\d43cde91dd501e39f1d849ead9dac297\drawee-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c97ca2a6b6607ebf0397fe9c1bdc324\imagepipeline-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c97ca2a6b6607ebf0397fe9c1bdc324\imagepipeline-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\79ce3b8fb017d3d11959bdef6473e4d9\imagepipeline-base-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\79ce3b8fb017d3d11959bdef6473e4d9\imagepipeline-base-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0cf472d1f0e825d05df82675c7c0c8a5\soloader-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0cf472d1f0e825d05df82675c7c0c8a5\soloader-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ada8c2feb9af40e4170ec6dbcb7b86b8\firebase-iid-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ada8c2feb9af40e4170ec6dbcb7b86b8\firebase-iid-interop-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ede359b0bf032c8682299509587a4e7b\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\ede359b0bf032c8682299509587a4e7b\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\45e64df2fb46b481214b52800f86c0ef\firebase-measurement-connector-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\45e64df2fb46b481214b52800f86c0ef\firebase-measurement-connector-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\472c1fc7ae234eeab1e8661e1d3e35ec\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\472c1fc7ae234eeab1e8661e1d3e35ec\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0a0a623c181d45a00d2395619ca3bd14\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0a0a623c181d45a00d2395619ca3bd14\play-services-ads-identifier-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\c19f606039257f979dd86d674ee30a4b\support-v4-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\c19f606039257f979dd86d674ee30a4b\support-v4-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\568b61425b13e18bb6330b5e467cd6be\support-fragment-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\568b61425b13e18bb6330b5e467cd6be\support-fragment-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\3ed7207df34a7b104031902c482c843a\support-core-utils-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\3ed7207df34a7b104031902c482c843a\support-core-utils-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0ed9bf7124f673e3ae16a6833ea97a7f\animated-vector-drawable-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0ed9bf7124f673e3ae16a6833ea97a7f\animated-vector-drawable-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e4bb53ec939e005a67c1fc497b3571d3\support-vector-drawable-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e4bb53ec939e005a67c1fc497b3571d3\support-vector-drawable-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0347503d04e89aecca985c570fbd89c7\support-core-ui-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0347503d04e89aecca985c570fbd89c7\support-core-ui-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\eadde4ce35e850397ee33a5858f311e7\support-media-compat-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\eadde4ce35e850397ee33a5858f311e7\support-media-compat-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\38b7526406df4c469433738b367ae0f1\support-compat-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\38b7526406df4c469433738b367ae0f1\support-compat-27.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e62a50fa9084e3d2081d3371ff749f55\fbcore-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\e62a50fa9084e3d2081d3371ff749f55\fbcore-1.10.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\4adcdd2e417f10a173c0aafdb86b3f54\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\4adcdd2e417f10a173c0aafdb86b3f54\play-services-measurement-base-15.0.2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\5aaa5b0d3c7edfce54f56b946f7bbcb9\play-services-iid-16.0.1\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:23:22-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:29:13-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:39:22-90
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\fba75b5019b6064bf47915535d2f633c\firebase-analytics-impl-15.0.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:28:5-30:47
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:32:5-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.mountiemobile
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:45:13-49:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:27-58
+category#com.mountiemobile
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:26:13-58

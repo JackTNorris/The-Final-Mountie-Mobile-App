@@ -1,0 +1,365 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mountiemobile"
+4    android:versionCode="3"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:6:22-65
+13
+14    <permission
+15        android:name="com.mountiemobile.permission.C2D_MESSAGE"
+15-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:8:9-63
+16        android:protectionLevel="signature" />
+16-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:9:9-44
+17
+18    <uses-permission android:name="com.mountiemobile.permission.C2D_MESSAGE" />
+18-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:10:22-76
+19    <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+20
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:13:5-66
+21-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:13:22-63
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:14:5-80
+22-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:14:22-78
+23
+24    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+25-->[com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:23:5-82
+25-->[com.google.android.gms:play-services-gcm:16.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\67112f3662d10fe302c7496a51cc31e7\play-services-gcm-16.1.0\AndroidManifest.xml:23:22-79
+26    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+27    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+28    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+29    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+30    <!-- for Samsung -->
+31    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+31-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:19:5-86
+31-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:19:22-83
+32    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+32-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:20:5-87
+32-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:20:22-84
+33    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+33-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:23:5-81
+33-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:23:22-78
+34    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+34-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:24:5-83
+34-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:24:22-80
+35    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+35-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:27:5-88
+35-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:27:22-85
+36    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+36-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:28:5-92
+36-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:28:22-89
+37    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+37-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:31:5-84
+37-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:31:22-81
+38    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+38-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:34:5-83
+38-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:34:22-80
+39    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+39-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:37:5-91
+39-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:37:22-88
+40    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+40-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:38:5-92
+40-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:38:22-89
+41    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+41-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:39:5-93
+41-->[me.leolin:ShortcutBadger:1.1.8] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\32e9e45a5eb8e929cc2ee1b15f05a388\ShortcutBadger-1.1.8\AndroidManifest.xml:39:22-90
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+42-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:5-79
+42-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:23:22-76
+43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+43-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:26:5-110
+43-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:26:22-107
+44
+45    <application
+45-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:16:5-85:19
+46        android:name="com.mountiemobile.MainApplication"
+46-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:16:23-54
+47        android:allowBackup="false"
+47-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:20:9-36
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:18:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:17:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:19:9-54
+51        android:theme="@style/AppTheme" >
+51-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:21:9-40
+52        <meta-data
+52-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:22:5-23:57
+53            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+53-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:22:17-95
+54            android:value="YOUR NOTIFICATION CHANNEL NAME" />
+54-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:23:9-55
+55        <meta-data
+55-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:24:5-25:64
+56            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+56-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:24:17-102
+57            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" />
+57-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:25:9-62
+58        <!-- Change the resource name to your App's accent color - or any other color you want -->
+59        <meta-data
+59-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:27:5-28:50
+60            android:name="com.dieam.reactnativepushnotification.notification_color"
+60-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:27:17-88
+61            android:resource="@android:color/white" />
+61-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:28:9-48
+62
+63        <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+64        <!--
+65        <receiver
+66            android:name="com.google.android.gms.gcm.GcmReceiver"
+67            android:exported="true"
+68            android:permission="com.google.android.c2dm.permission.SEND" >
+69            <intent-filter>
+70                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+71                <category android:name="${applicationId}" />
+72            </intent-filter>
+73        </receiver>
+74        -->
+75        <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+76
+77        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+77-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:42:5-106
+77-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:42:15-103
+78        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+78-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:43:5-47:16
+78-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:43:15-111
+79            <intent-filter>
+79-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:44:9-46:25
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:45:13-75
+80-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:45:21-72
+81            </intent-filter>
+82        </receiver>
+83
+84        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" />
+84-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:48:5-114
+84-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:48:14-112
+85
+86        <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+87        <service
+87-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:51:5-57:15
+88            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm"
+88-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:52:9-106
+89            android:exported="false" >
+89-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:53:9-33
+90            <intent-filter>
+90-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:54:9-56:25
+91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+91-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:13-77
+91-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:21-74
+92            </intent-filter>
+93        </service>
+94        <service
+94-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:59:9-65:19
+95            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+95-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:60:13-107
+96            android:exported="false" >
+96-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:61:13-37
+97            <intent-filter>
+97-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:62:13-64:29
+98                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+98-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:17-78
+98-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:25-75
+99            </intent-filter>
+100        </service>
+101
+102        <activity
+102-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:66:7-81:18
+103            android:name="com.mountiemobile.MainActivity"
+103-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:67:9-37
+104            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+104-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:69:9-79
+105            android:label="@string/app_name"
+105-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:68:9-41
+106            android:screenOrientation="portrait"
+106-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:71:11-47
+107            android:windowSoftInputMode="adjustResize" >
+107-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:70:9-51
+108            <intent-filter>
+108-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:72:9-75:25
+109                <action android:name="android.intent.action.MAIN" />
+109-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:73:13-65
+109-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:73:21-62
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:74:13-73
+111-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:74:23-70
+112            </intent-filter>
+113            <intent-filter>
+113-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:76:11-80:27
+114                <action android:name="android.intent.action.VIEW" />
+114-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:78:15-67
+114-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:78:23-64
+115            </intent-filter>
+116        </activity>
+117        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+117-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:83:7-84
+117-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:83:17-81
+118
+119        <!--
+120             FirebaseMessagingService performs security checks at runtime,
+121             no need for explicit permissions despite exported="true"
+122        -->
+123        <service
+123-->[com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:28:9-34:19
+124            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+124-->[com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:29:13-82
+125            android:exported="true" >
+125-->[com.google.firebase:firebase-messaging:17.1.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\998c6ad4e00b2991aca21e3bd74fa4d2\firebase-messaging-17.1.0\AndroidManifest.xml:30:13-36
+126            <intent-filter android:priority="-500" >
+126-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:62:13-64:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:17-78
+127-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:63:25-75
+128            </intent-filter>
+129        </service>
+130        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+130-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:9-31:19
+130-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:27:18-89
+131            <meta-data
+131-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:28:13-30:85
+132                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+132-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:29:17-139
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\8c7f35049941d4c5b1bb0a03616726d0\firebase-measurement-connector-impl-15.0.0\AndroidManifest.xml:30:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:36:13-38:85
+135                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+135-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:37:17-96
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:38:17-82
+137        </service>
+138
+139        <receiver
+139-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:29:9-33:20
+140            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+140-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:30:13-85
+141            android:enabled="true"
+141-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:31:13-35
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:32:13-37
+143        </receiver>
+144        <receiver
+144-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:34:9-42:20
+145            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+145-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:35:13-100
+146            android:enabled="true"
+146-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:36:13-35
+147            android:exported="true"
+147-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:37:13-36
+148            android:permission="android.permission.INSTALL_PACKAGES" >
+148-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:38:13-69
+149            <intent-filter>
+149-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:39:13-41:29
+150                <action android:name="com.android.vending.INSTALL_REFERRER" />
+150-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:40:17-79
+150-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:40:25-76
+151            </intent-filter>
+152        </receiver>
+153
+154        <service
+154-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:44:9-47:40
+155            android:name="com.google.android.gms.measurement.AppMeasurementService"
+155-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:45:13-84
+156            android:enabled="true"
+156-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:46:13-35
+157            android:exported="false" />
+157-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:47:13-37
+158        <service
+158-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:48:9-52:72
+159            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+159-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:49:13-87
+160            android:enabled="true"
+160-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:50:13-35
+161            android:exported="false"
+161-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:51:13-37
+162            android:permission="android.permission.BIND_JOB_SERVICE" />
+162-->[com.google.firebase:firebase-analytics:15.0.2] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\64f471ad60a0a658ecbca7551a4dd994\firebase-analytics-15.0.2\AndroidManifest.xml:52:13-69
+163
+164        <receiver
+164-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:41:9-50:20
+165            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+165-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:42:13-78
+166            android:exported="true"
+166-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:43:13-36
+167            android:permission="com.google.android.c2dm.permission.SEND" >
+167-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:44:13-73
+168            <intent-filter>
+168-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:45:13-49:29
+169                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+169-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:13-77
+169-->C:\Users\jackt\OneDrive\Desktop\The-Final-Mountie-Mobile-App\android\app\src\main\AndroidManifest.xml:55:21-74
+170
+171                <category android:name="com.mountiemobile" />
+171-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:17-61
+171-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:48:27-58
+172            </intent-filter>
+173        </receiver>
+174        <!--
+175             FirebaseInstanceIdService performs security checks at runtime,
+176             no need for explicit permissions despite exported="true"
+177        -->
+178        <service
+178-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:56:9-62:19
+179            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+179-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:57:13-77
+180            android:exported="true" >
+180-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:58:13-36
+181            <intent-filter android:priority="-500" >
+181-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:59:13-61:29
+181-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:59:28-51
+182                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+182-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:60:17-80
+182-->[com.google.firebase:firebase-iid:16.2.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\acc05d0733fc23df5a13d33e13e1207f\firebase-iid-16.2.0\AndroidManifest.xml:60:25-77
+183            </intent-filter>
+184        </service>
+185
+186        <activity
+186-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+187            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+187-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+189-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\b9ffff42fac733baed479ce77a508552\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+190
+191        <provider
+191-->[com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:9:9-13:39
+192            android:name="com.google.firebase.provider.FirebaseInitProvider"
+192-->[com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:10:13-77
+193            android:authorities="com.mountiemobile.firebaseinitprovider"
+193-->[com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:11:13-72
+194            android:exported="false"
+194-->[com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:12:13-37
+195            android:initOrder="100" />
+195-->[com.google.firebase:firebase-common:16.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\0130eb5bba69275131de1a8f27458b99\firebase-common-16.0.0\AndroidManifest.xml:13:13-36
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\420e505f8c61bae48fe711a15e44fd53\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+200        <meta-data
+200-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+201            android:name="android.arch.lifecycle.VERSION"
+201-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:26:13-58
+202            android:value="27.0.0-SNAPSHOT" />
+202-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\jackt\.gradle\caches\transforms-2\files-2.1\93f8163b217ef56fa8864d933afa088d\runtime-1.0.0\AndroidManifest.xml:27:13-44
+203    </application>
+204
+205</manifest>

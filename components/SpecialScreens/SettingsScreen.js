@@ -21,17 +21,17 @@ class SettingsScreen extends React.Component {
         <View style={{ backgroundColor: 'white' }}>
           <Text style={styles.mainBody}>
             {'\n'}
-            About - {'\n'}
-            Project Lead: {'\n'}
-            {'\t'}Jack Norris{'\n'}
+            Created By: {'\n'}
+            
+            {'\t'}Jack Norris - Project Lead{'\n'}
             {'\n'}
-            Chief Designer:{'\n'}
-            {'\t'}Brad Campbell{'\n'}
+          
+            {'\t'}Brad Campbell - Chief Designer{'\n'}
             {'\n'}
-            Developers:{'\n'}
-            {'\t'}Ethan Potts, Trevor Scogin, and Garrett Chrisman.
-            {'\n\n'}
-            Version 0 . 5 . 2{'\n'}
+            
+            {'\t'}Ethan Potts {'\n\n\t'}Trevor Scogin {'\n\n\t'}Garrett Chrisman
+            {'\n\n\n\n'}
+            Version 1 . 0 . 1{'\n'}
           </Text>
 			</View>
       <View>

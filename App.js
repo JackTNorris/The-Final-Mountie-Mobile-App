@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    paddingTop: getStatusBarHeight(),
+    paddingTop: getStatusBarHeight(true),
     backgroundColor: '#ecf0f1',
     padding: 0,
   },
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',  
     flex: 1,
     justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
+    paddingTop: getStatusBarHeight(true),
     backgroundColor: '#ecf0f1',
     padding: 0,
     alignItems: 'center'

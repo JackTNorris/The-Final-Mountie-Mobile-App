@@ -235,7 +235,7 @@ class ModalDirectory extends React.Component {
         notificationsArray = this.state.miscellaneousSwitches;
         break;
       case 'arts':
-        eventTypes = ['Choir', 'Orchesra', 'Band', 'Drama', 'Theatre Dance'];
+        eventTypes = ['Choir', 'Orchestra', 'Band', 'Drama', 'Theatre Dance'];
         notificationsArray = this.state.artSwitches;
         break;
     }

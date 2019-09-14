@@ -16,6 +16,8 @@ const athleticIcons = {
   wrestling: require('../../assets/icons/Athletics/wrestling-icon.png'),
   volleyball: require('../../assets/icons/Athletics/volleyball-icon.png'),
   tennis: require('../../assets/icons/Athletics/tennis-icon.png'),
+    swimanddive: require('../../assets/icons/Athletics/swimming-icon.png'),
+  softball: require('../../assets/icons/Athletics/softball-icon.png')
 };
 const artIcons = {
   band: require('../../assets/icons/Arts/band-icon.png'),
@@ -133,6 +135,11 @@ export default class InfoScreen extends React.Component {
           case 'soccer':
             catObject = athleticIcons.soccer;
             break;
+		  case 'softball':
+			catObject = athleticIcons.softball;
+			break;
+		  case 'swim/dive':
+			catObject = athleticIcons.swimanddive;
         }
         break;
       case 'academics':
