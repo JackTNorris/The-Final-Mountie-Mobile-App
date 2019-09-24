@@ -1,4 +1,4 @@
-#Sat Sep 14 12:43:18 CDT 2019
+#Mon Sep 23 18:29:42 CDT 2019
 base.0=C\:\\Users\\jackt\\OneDrive\\Desktop\\The-Final-Mountie-Mobile-App\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

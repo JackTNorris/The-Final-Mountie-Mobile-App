@@ -70,7 +70,7 @@ class Header extends React.Component {
         }}>
         { this.addMenuButton() }
         { this.addBackButton() }
-        <Image style={ styles.logoMove } source={ require('../assets/logos/REAL_LOGO.png') } />
+        <Image resizeMode = 'center' style={ styles.logoMove } source={ require('../assets/logos/REAL_LOGO.png') } />
       </View>
     );
   }
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     width: (Dimensions.get('window').width * 0.8 ),
     height:(Dimensions.get('window').height * 0.8 * 0.183333),
     //marginLeft:  (Dimensions.get('window').width *0.1 ),
-    resizeMode: 'center',
+    //resizeMode: 'center',
 	marginTop: 5
 
   },

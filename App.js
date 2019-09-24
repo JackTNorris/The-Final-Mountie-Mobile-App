@@ -7,8 +7,7 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
-import Constants from 'expo-constants';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+
 import {
   createAppContainer,
   createBottomTabNavigator,
@@ -72,7 +71,7 @@ export default class MountieMobileApp extends React.Component {
 		db.ref('/appUsers/' + token.token).once('value', (snapshot) => {
 			if(!snapshot.hasChild('notificationsPreferences'))
 			{
-				let athleticsNotif = [false, false, false, false, false, false, false, false, false, false, false, false];
+				let athleticsNotif = [false, false, false, false, false, false, false, false, false, false, false, false, false, false];
 				let academicsNotif = [false, false, false, false];
 				let artsNotif = [false, false, false,false, false];
 				let miscellaneousNotif = [false, false, false];
@@ -95,7 +94,7 @@ export default class MountieMobileApp extends React.Component {
 	  else {
 		  return (
 				<View style={styles.container}>
-					<FullAppContainer screenProps = {{thisToken: this.state.deviceToken}}/>
+					<FullAppContainer screenProps = {{thisToken: this.state.deviceToken}}/> 
 				</View>
 			);
 		  
