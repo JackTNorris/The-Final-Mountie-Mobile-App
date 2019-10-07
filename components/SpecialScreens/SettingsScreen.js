@@ -31,7 +31,7 @@ class SettingsScreen extends React.Component {
             
             {'\t'}Ethan Potts {'\n\n\t'}Trevor Scogin {'\n\n\t'}Garrett Chrisman
             {'\n\n\n\n'}
-            Version 1 . 1 . 0{'\n'}
+            Version 1 . 4 . 0{'\n'}
           </Text>
 			</View>
       <View>
