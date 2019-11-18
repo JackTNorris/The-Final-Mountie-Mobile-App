@@ -47,13 +47,13 @@ export default class MountieMobileApp extends React.Component {
 	componentDidMount(){
 		var firebase = require('firebase');
 		var config = {
-			apiKey: 'AIzaSyB_JrcF7ogRqsOo2h9jW0GrA5_vSMCdgLA',
-			authDomain: 'mountie-mobile.firebaseapp.com',
-			databaseURL: 'https://mountie-mobile.firebaseio.com',
-			projectId: 'mountie-mobile',
-			storageBucket: 'mountie-mobile.appspot.com',
-			messagingSenderId: '269099119210',
-			appId: '1:269099119210:web:ccbc6e962f9cdbed',
+			apiKey: '******',
+			authDomain: '******',
+			databaseURL: '******',
+			projectId: '******',
+			storageBucket: '******',
+			messagingSenderId: '******',
+			appId: '******',
 		};
 		if (!firebase.apps.length) {
 		  //checks to make sure there's only one instance of app
