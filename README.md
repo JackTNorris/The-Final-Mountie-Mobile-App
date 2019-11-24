@@ -35,6 +35,6 @@
 
 
 
-This app was developed using React Native, a JavaScript framework that allows you to develop for both the Android and IOS at the same time
+This app was developed using React Native, a JavaScript framework that allows you to develop for both the Android and IOS at the same time. The code itself me be a bit messy, but it was a fantastic learning experience overall.
 
 Download on <a href="https://play.google.com/store/apps/details?id=com.mountiemobile&hl=en_US">Google Play</a> and the <a href = "https://apps.apple.com/us/app/mountie-mobile/id1479474681">App Store </a>today!!!
