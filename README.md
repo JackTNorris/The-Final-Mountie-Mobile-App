@@ -37,4 +37,15 @@
 
 This app was developed using React Native, a JavaScript framework that allows you to develop for both the Android and IOS at the same time. The code itself is incredibly messy, but it was a fantastic learning experience overall.
 
+<h3>A couple of the myriad things bad about this code</h3>
+<ul>
+  <li>Repeated initialization of firebase variable, even after it was already initialized</li>
+  <li>Multiple variable reference to the same object</li>
+  <li>Use of var as opposed to let and const</li>
+  <li>Too much logic present in the App.js</li>
+  <li>Didn't use Redux to store state when I should have</li>
+  <li>Ineffective division of functionality in components</li>
+  <li>Dead code and comments left over</li>
+</ul>
+
 Download on <a href="https://play.google.com/store/apps/details?id=com.mountiemobile&hl=en_US">Google Play</a> and the <a href = "https://apps.apple.com/us/app/mountie-mobile/id1479474681">App Store </a>today!!!
