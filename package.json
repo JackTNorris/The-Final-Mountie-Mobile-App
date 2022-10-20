@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "@react-native-community/async-storage": "^1.5.1",
-    "expo": "^33.0.7",
+    "expo": "^46.0.16",
     "firebase": "6.3.0",
     "moment": "*",
     "react": "16.8.3",
